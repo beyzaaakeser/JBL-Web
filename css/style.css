@@ -30,6 +30,7 @@
   padding: 5px 20px;
   top: 0;
   left: 0;
+  z-index: 99;
 }
 .header .nav {
   display: flex;
@@ -139,6 +140,19 @@
   color: var(--first-color);
 }
 .home__button {
+  justify-self: center;
+}
+
+.about__data {
+  text-align: center;
+}
+.about__description {
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+.about__img {
+  width: 280px;
+  margin: auto;
   justify-self: center;
 }
 
