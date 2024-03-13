@@ -1,5 +1,7 @@
 .home{
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
     &__container{
         display: flex;
         padding: 112px 16px;

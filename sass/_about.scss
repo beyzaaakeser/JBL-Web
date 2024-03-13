@@ -1,4 +1,8 @@
 .about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
     &__data{
         text-align: center;
     }

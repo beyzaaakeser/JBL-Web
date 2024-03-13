@@ -57,6 +57,11 @@
   color: var(--first-color);
 }
 
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .home__container {
   display: flex;
   padding: 112px 16px;
@@ -143,6 +148,12 @@
   justify-self: center;
 }
 
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
 .about__data {
   text-align: center;
 }
