@@ -9,6 +9,7 @@
 @import "model";
 @import "sponsor";
 @import "footer";
+@import "responsive";
 
 *{
     margin: 0;
@@ -52,6 +53,9 @@
 body{
     background-color:var(--body-color) ;
     color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1,h2,h3,h4{
@@ -59,7 +63,8 @@ h1,h2,h3,h4{
     font-weight: var(--font-semi-bold);
 }
 .container{
-    max-width:1120px
+    max-width:1120px;
+    margin-inline: 24px;
 }
 
 .grid{
@@ -69,4 +74,16 @@ h1,h2,h3,h4{
 
 .section{
     padding-block:  80px 16px; // padding top ile bottom ozelliklerinin birlesimi kisaltmasi gibi
+}
+
+.section__title{
+    text-align: center;
+    font-size: var(--h2-font-size);
+    margin-bottom: 24px;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
 }

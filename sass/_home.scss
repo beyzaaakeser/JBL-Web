@@ -1,7 +1,4 @@
 .home{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     &__container{
         display: flex;
         padding: 112px 16px;
@@ -20,9 +17,9 @@
     }
 
     &__title{
-        span{
+         span{
             font-size: var(--biggest-font-size);
-        }
+        } 
         color: var(--first-color);
         position: absolute;
         top: -32px;
@@ -47,7 +44,7 @@
             color: var(--white-color);
             padding: 6px 12px;
             border-radius: 64px;
-            transform: translate(-10px,-16px);
+            transform: translate(58px,-40px);
             white-space: nowrap;
         }
     }

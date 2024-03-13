@@ -1,8 +1,8 @@
 .about{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 50px;
+    h2{
+        font-size: 30px;
+    }
     &__data{
         text-align: center;
     }
