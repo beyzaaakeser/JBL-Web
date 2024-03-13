@@ -12,13 +12,18 @@
         }
         img{
             width: 200px;
-
+            
+            
         }
     }
 
     &-article{
         display: flex;
         flex-direction: column;
+        transition: all 0.3s;
+        &:hover{
+            transform: scale(1.2);
+        }
     }
 }
 

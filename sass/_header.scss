@@ -9,13 +9,17 @@
     backdrop-filter: blur(15px);
     .nav{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
+        position: relative;
         height: var(--header-height);
         &__logo{
             color: var(--first-color);
             font-size: 30px;
             font-weight: var(--font-semi-bold);
+            position: absolute;
+            left: 10px;
+            top: 8px;
         }
         &__list{
             display: flex;
@@ -43,6 +47,9 @@
     .nav .nav__logo{
         margin: auto;
         font-size: 50px;
+        position: relative;
+        top: auto;
+        left: auto;
     }
 
 }
