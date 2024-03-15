@@ -1,6 +1,6 @@
 <h1>JBL Clone Website</h1>
 
-I am here with a clone site that captures the design lines of JBL Turkey's official website! Discovering JBL products is now much more enjoyable on this site, which I created with HTML5 and SCSS mastery.
+I am here with a clone site that captures the design lines of JBL Turkey's website! Discovering JBL products is now much more enjoyable on this site, which I created with HTML5 and SCSS mastery.
 
 <h2> The following technologies were used in the frontend development phase of my site: </h2>
 
